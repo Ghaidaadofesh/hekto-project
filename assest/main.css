@@ -72,6 +72,45 @@ form {
 
 /* end header */
 
+/* start products */
+.fetured-product{
+  padding: 50px 0;
+}
+.fetured-product .row{
+  justify-content: flex-start;
+  gap: 15px;
+}
+.fetured-product .product{
+ flex-grow: 1;
+ flex-basis: 300px;
+ flex-shrink: 0;
+  box-shadow: 0px 4px 4px #00000040
+  ;
+
+}
+.fetured-product h2{
+  margin-bottom: 30px;
+}
+.product .img {
+  background-color: #eaedfc;
+  padding:30px ;
+  border-radius: 5px;
+  height: 250px;
+  object-fit: contain;
+}
+.product-details{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding:10px ;
+}
+.pink{
+  color: var(--primary);
+}
+
+/* end products */
+
+
 /* start nweslater */
 .newslater {
   background-image: url("./img/Rectangle.webp");
