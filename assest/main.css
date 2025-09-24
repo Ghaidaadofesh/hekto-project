@@ -219,6 +219,89 @@ flex: 1 0 30%;
 
 /* end products */
  
+/* start leatest-products */
+.Leatest-Products {
+  padding: 50px 0;
+}
+.Leatest-Products .row {
+  justify-content: flex-start;
+  gap: 40px;
+}
+.a-list a{
+  text-align: center;
+  margin: auto;
+  
+}
+.a-list{
+  padding: 30px 700px;
+}
+.a1{
+  color: red;
+  text-decoration: underline;
+}
+.Leatest-Products .l-products {
+  flex-grow: 1;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  
+}
+.Leatest-Products h2 {
+  margin-bottom: 30px;
+  color: #1a0b5b;
+}
+
+.l-products .img {
+  background-color: #eaedfc;
+  padding: 30px;
+  border-radius: 5px;
+  height: 300px;
+  object-fit: contain;
+  position: relative;
+}
+
+.leatest-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 10px 2px;
+  color: #151875;
+}
+
+.leasted-info{
+  gap:10px;
+}
+.list-color{
+  color: #FB2448;
+}
+.badge-sale {
+  position: absolute;
+  top: 20px;
+  left: 4px;
+  display: none;
+}
+.leatest-logo{
+  position: absolute;
+  top: 180px;
+  gap: 15px;
+  left: 20px;
+  display: none;
+}
+
+.l-products:hover .leatest-logo{
+  display: flex;
+  flex-direction: column;
+}
+.leatest-logo,.badge-sale{
+ transition: all 0.6s;
+}
+.l-products:hover .badge-sale{
+  display: block;
+
+}
+.l-products:hover .img{
+ background-color: white;
+}
+/* end leatest-products */
 
 /* start nweslater */
 .newslater {
