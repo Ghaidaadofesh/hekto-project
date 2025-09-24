@@ -353,6 +353,121 @@ width: 100%;
 }
 /* end What-Shopex-Offer */
 
+/* start trending */
+.trending-products{
+  padding: 80px 0;
+}
+
+.trending-products .row {
+  justify-content: flex-start;
+  gap: 40px;
+}
+.trending-products .t-products {
+  flex-grow: 1;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  
+}
+.trending-products h2 {
+  margin-bottom: 30px;
+  color: #1a0b5b;
+}
+
+.t-products .img {
+  background-color: #eaedfc;
+  padding: 30px;
+  border-radius: 5px;
+  height: 240px;
+  object-fit: contain; 
+}
+
+.trending-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 2px;
+  color: #151875;
+}
+
+.trending-info{
+  justify-content:center;
+  gap:20px;
+}
+
+.l-trending{
+  padding: 70px 70px;
+  position: relative;
+}
+ .l-trending a {
+text-decoration:underline;
+color: #ff0000;
+  display: block;
+
+}
+.line-through{
+  text-decoration: line-through;
+}
+
+.trending-products .l-trending  {
+  flex-grow: 1;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  
+}
+.l-trending h2 {
+  margin-bottom: 30px;
+  color: #1a0b5b;
+    display: block;
+    text-align: start;
+}
+
+.l-trending .img {
+  background-color: #eaedfc;
+  padding: 30px;
+  border-radius: 5px;
+  object-fit: contain; 
+}
+.l-trending .img1 {
+  background-color: #eaedfc;
+ 
+}
+
+.l-trending  {
+ height: 350px;
+}
+
+.trending-products .gap  {
+ gap:100px;
+ 
+}
+
+.img-trending1{
+  position: absolute;
+  left: 150px;
+  top: 100px;
+}
+
+.img-trending2{
+  position: absolute;
+  left: 90px;
+  top: 150px;
+}
+.l-trending .extra{
+  padding:10px;
+}
+.extra .par h3 {
+  align-items: center;
+}
+.l-trending a {
+  text-align: left;
+}
+.extra .par{
+  color: #151875;
+}
+.l-trending:hover{
+  background-color:#eaedfc;
+}
+/* end trending */
+
 
 /* start nweslater */
 .newslater {
