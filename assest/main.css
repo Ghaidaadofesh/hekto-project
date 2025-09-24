@@ -469,10 +469,14 @@ color: #ff0000;
 /* end trending */
 
 /* start top-categories */
+.top-categories{
+  margin-bottom: 80px;
+}
 .top-categories h2 {
   margin-bottom: 30px;
   color: #1a0b5b;
     text-align: center;
+  
 }
 .top-categories .img{
   border-radius: 50%;
