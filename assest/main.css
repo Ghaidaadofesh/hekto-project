@@ -336,12 +336,9 @@ width: calc((100% - 15px)/4);
 }
 
 .What-Shopex-Offer{
-  padding: 10px 200px;
+  padding:10px 0px;
 }
-.What-Shopex-Offer img{
-  padding-bottom: 50px ;
-  padding-top: 150px;
-}
+
 
 .shopex-details{
   color: #151875;
@@ -366,11 +363,7 @@ width: calc((100% - 5px)/2);
 width: 100%;
 }
 }
-@media screen and (max-width: 1400px) {
-  .What-Shopex-Offer .img {
-   opacity: 0;
-  }
-}
+
 /* end What-Shopex-Offer */
 
 /* start trending */
@@ -506,6 +499,7 @@ color: #ff0000;
   padding: 50px;
  transition: all 0.6s;
  position: relative;
+ 
 }
 .view-shop-btn{
   position: absolute;
@@ -515,10 +509,14 @@ color: #ff0000;
   padding: 10px 10px;
   transition: all 0.6s;
 }
+.t-categories{
+  padding-bottom: 20px;
+}
 .t-categories:hover .view-shop-btn{
   display: block;
 }
 .t-categories:hover .img{
+
   box-shadow: -8px 8px 0px 0 #979edd;
 }
 
@@ -531,6 +529,13 @@ color: #ff0000;
    color: #151875;
   
 }
+
+@media screen and (max-width: 650px) {
+  .top-categories .row{
+   justify-content: center;
+}
+}
+
 
 /* end top-categories */
 
@@ -580,7 +585,11 @@ color: #ff0000;
   color: #72718f;
   
 }
-
+@media screen and (max-width: 850px) {
+  .Leatest-Blog .row{
+   justify-content: center;
+}
+}
 /* end Leatest Blog */
 
 /* start nweslater */
